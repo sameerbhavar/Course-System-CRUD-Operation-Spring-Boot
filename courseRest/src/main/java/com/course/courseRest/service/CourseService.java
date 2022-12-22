@@ -12,5 +12,9 @@ public interface CourseService {
 	public Courses getCourse(long courseId) throws CourseException;
 	
 	public Courses addCourse(Courses course) throws CourseException;
+	
+	public Courses updateCourse(Courses courses) throws CourseException;
+	
+	public Courses deleteCourse(Courses courses) throws CourseException;
 
 }
